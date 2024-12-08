@@ -27,13 +27,8 @@
   }
   
   .album-card-img {
-    width: 100%;
-    height: 250px;
-
-    border-radius: 8px;
   }
   
-  /* Card body content */
   .album-card-body {
 
     background-color: #1c1c1c; 
