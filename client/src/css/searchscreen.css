@@ -1,0 +1,58 @@
+.search-results-container {
+    padding: 30px;
+    background-color: #121212; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+
+  .search-results-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745; 
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .album-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .album-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border-color: #28a745; 
+  }
+  
+  .album-card-img {
+    width: 100%;
+    height: 250px;
+
+    border-radius: 8px;
+  }
+  
+  /* Card body content */
+  .album-card-body {
+
+    background-color: #1c1c1c; 
+  }
+  
+  .album-card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff; 
+  }
+  
+  .album-card-artist {
+    font-size: 1rem;
+    color: #d1d1d1;
+  }
+  
+  .search-results-container p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  

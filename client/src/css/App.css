@@ -1,0 +1,139 @@
+/*header*/
+.header {
+  display: flex;
+  background-color: rgb(21, 21, 25);
+  position: sticky;
+  z-index: 100;
+  top: 100;
+  width: 100%;
+  justify-content: space-around;
+}
+.header_brand {
+  margin-left: -0;
+  margin-right: -0;
+  border: 0;
+  box-shadow: none;
+  background-color: rgb(21, 21, 25);
+}
+.header_nav {
+  width: 30%;
+  display: flex;
+  align-items: right;
+  flex-direction: row-reverse;
+}
+h1 {
+  color: #1db954;
+  align-items: left;
+}
+.header_search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+.header_search_input {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 0;
+}
+.header_search_Icon {
+  background-color: #1db954;
+  border: 0;
+  color: black;
+}
+.header_search_Icon:hover {
+    background: #17a54d;
+    border-color: #157536;
+    color: black;
+  }
+
+.header_option {
+  align-items: right;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: azure;
+}
+.header_option_line1 {
+  font-size: 10px;
+}
+.header_option_line2 {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header_option_cart {
+  display: flex;
+  align-items: center;
+  color: azure;
+}
+.header_cart_count {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* homepage */
+.home_banner {
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: -28%;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+/* Product */
+.product {
+  padding-bottom: 20px;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product_img {
+  max-height: 180px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.button {
+  background: #1db954;
+  border: 1px solid;
+  margin-top: 10px;
+  padding: 10px;
+  border-color: #1a9d48 #17883f #157536;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background: #17a54d;
+  border-color: #157536;
+}
+.Container_product{
+    border: 0;
+    box-shadow: none;
+}
+/* cartScreen */
+.CS {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #fff;
+}
+/* SearchScreen */
+.Search_Products{
+    padding: -15;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #fff;   
+}
+.Search_Products_row{
+    margin-right: 0;
+    padding: 0;
+    justify-content: space-between;
+}

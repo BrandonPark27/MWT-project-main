@@ -1,0 +1,82 @@
+.spotify-checkout-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #121212, #1db954);
+    color: white;
+    font-family: "Circular", sans-serif;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .spotify-checkout-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  
+  .spotify-checkout-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #222;
+    color: white;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: #aaa;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .spotify-checkbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  button.spotify-checkout-button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1db954;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button.spotify-checkout-button:hover {
+    background-color: #1ed760;
+  }
+  
+  .error-message {
+    color: #f03e3e;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .success-message {
+    color: #1db954;
+    font-weight: bold;
+    text-align: center;
+  }
+  

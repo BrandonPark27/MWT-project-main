@@ -1,0 +1,110 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(215, 215, 215); 
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif; 
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 400px; 
+}
+
+.signup-header {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1DB954; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.form_group {
+    margin-bottom: 15px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.signup_button {
+    background: #1DB954; 
+    border: none;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.signup_button:hover {
+    background: #1ed760; 
+}
+
+.toggle-buttons {
+    display: flex;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.toggle-button {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-radius: 50px 50px 0 0;
+    cursor: pointer;
+    background: #e6e6e6;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-button.active {
+    background: #1DB954; 
+    color: white;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.logout {
+    text-align: center;
+}
+
+.logout_button {
+    background: #ff4757; 
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 12px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.logout_button:hover {
+    background: #ff6b81; 
+}

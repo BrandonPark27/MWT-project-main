@@ -1,0 +1,85 @@
+.receipt-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1db954; 
+    margin-bottom: 20px;
+  }
+  
+  .receipt-container {
+    margin-top: 20px;
+  }
+  
+  .product-list {
+    margin: 20px 0;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+  }
+  
+  .product-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #292929; 
+  }
+  
+  .product-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .product-details {
+    margin-left: 15px;
+  }
+  
+  .product-details p {
+    color: #ffffff;
+    margin: 5px 0;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1db954;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .receipt-container p {
+    margin: 8px 0;
+    color: #ffffff;
+  }
+  
+  p strong {
+    color: #1db954;
+  }
+  
+  .receipt-container .total-cost {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+    color: #ffffff;
+  }
+  
+  .address {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #292929;
+    color: #ffffff;
+  }
