@@ -16,7 +16,10 @@ export default function SearchBox() {
   const fetchSuggestions = async (searchTerm) => {
     try {
       const response = await fetch(
-        `https://mwt-project-main-server.vercel.app/api/albums?query=${encodeURIComponent(searchTerm)}`
+        `https://mwt-project-main-server.vercel.app/api/albums?query=${encodeURIComponent(searchTerm)}`,{
+          mode: 'no-cors',
+        }
+        
       );
       const data = await response.json();
       setSuggestions(data.slice(0, 5));

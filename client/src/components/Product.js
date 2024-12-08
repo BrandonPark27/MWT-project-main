@@ -75,7 +75,9 @@ function UsedAlbum() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://mwt-project-main-server.vercel.app/api/albums");
+        const response = await fetch("https://mwt-project-main-server.vercel.app/api/albums",{
+          mode: 'no-cors',
+        })
         const data = await response.json();
         if (data?.length) {
           setAlbums(data.slice(0, 8));
