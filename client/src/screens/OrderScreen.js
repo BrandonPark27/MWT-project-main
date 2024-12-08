@@ -26,7 +26,7 @@ const OrderScreen = () => {
           return;
         }
 
-        const response = await fetch(`http://localhost:5000/api/orders`, {
+        const response = await fetch(`https://mwt-project-main-server.vercel.app/api/orders`, {
           method: "GET",
           headers: { "Authorization": `Bearer ${token}` },
         });

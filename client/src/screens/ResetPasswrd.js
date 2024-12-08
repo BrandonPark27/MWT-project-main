@@ -33,7 +33,7 @@ function ResetPassword() {
         }
   
        
-        const response = await fetch(`http://localhost:5000/api/users/edit`, {
+        const response = await fetch(`https://mwt-project-main-server.vercel.app/api/users/edit`, {
           method: "PUT",
           headers: {
             "Content-Type": "application/json",
