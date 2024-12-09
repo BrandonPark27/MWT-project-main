@@ -75,9 +75,7 @@ function UsedAlbum() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://mwt-project-main-server.vercel.app/api/albums",{
-          mode: 'no-cors',
-        })
+        const response = await fetch("http://localhost:5000/api/albums");
         const data = await response.json();
         if (data?.length) {
           setAlbums(data.slice(0, 8));
@@ -157,7 +155,7 @@ function CountryClassics() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://mwt-project-main-server.vercel.app/api/albums");
+        const response = await fetch("http://localhost:5000/api/albums");
         const data = await response.json();
         const countryAlbums = data.filter((album) =>
           ["I Walk the Line", "The Pressure Is On", "Willy and the Poor Boys", "Gunfighter Ballads and Trail Songs"].includes(album.name)
@@ -237,7 +235,7 @@ function FilmSoundtracks() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://mwt-project-main-server.vercel.app/api/albums");
+        const response = await fetch("http://localhost:5000/api/albums");
         const data = await response.json();
         const soundtrackAlbums = data.filter((album) =>
           ["The Boy and the Heron", "The Big Lebowski", "Fantastic Mr. Fox", "Taxi Driver"].includes(album.name)

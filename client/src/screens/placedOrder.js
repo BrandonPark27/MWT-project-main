@@ -10,7 +10,7 @@ function PlacedOrder() {
   useEffect(() => {
     const fetchOrder = async () => {
       try {
-        const response = await fetch(`https://mwt-project-main-server.vercel.app/api/orders/${id}`);
+        const response = await fetch(`http://localhost:5000/api/orders/${id}`);
         const data = await response.json();
 
         if (response.ok) {
